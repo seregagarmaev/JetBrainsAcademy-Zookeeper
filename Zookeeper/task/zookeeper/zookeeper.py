@@ -120,11 +120,6 @@ Switching on the camera in the rabbit habitat...
 It looks like we will soon have more rabbits!"""
 
 
+animals = [camel, lion, deer, goose, bat, rabbit]
+
 # write your code here
-animals_list = [camel, lion, deer, goose, bat, rabbit]
-
-animal_number = int(input('Please enter the number of the habitat you would like to view:'))
-
-print(animals_list[animal_number])
-print('---')
-print("You've reached the end of the program. To check another habitat, please restart the watcher.")
